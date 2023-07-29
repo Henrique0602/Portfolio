@@ -10,6 +10,14 @@
 }
 
 
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+    --linear-color:#000;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -233,16 +241,85 @@ span {
    
 }
 
-.portifolio{
-    background: rgb(6, 14, 119);
+
+.portfólio{
+    background-color:rgb(6, 14, 119);
+
 }
 
-.portifolio h2{
+
+.portfólio h2{
     margin-bottom: 4rem;
+
+
 }
 
-.portifolio-container{
-     display: grid;
-     grid-template-columns: repeat(3, 1fr
-     );
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.portfolio-container .portfolio-box{ 
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+}
+
+.portfolio-box img{
+    width: 100%;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover img{
+    transform: scale(1.1);
+}
+
+
+.portfolio-box .Camadas{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--linear-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.portfolio-box:hover .Camadas{
+    transform: translateY(0);
+}
+.Camadas h4{
+    font-size: 3rem;
+   
+}
+
+.Camadas p{
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+.Camadas a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Camadas a i{
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    
 }
