@@ -272,6 +272,7 @@ span {
 .portfolio-box img{
     width: 100%;
     transition: .5s ease;
+    
 }
 
 .portfolio-box:hover img{
@@ -323,3 +324,16 @@ span {
     background-color: rgb(255, 255, 255);
     
 }
+
+
+
+.joalheria{
+    font-size: 3rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 15rem;
+    right: 35rem;
+    
+}
+
