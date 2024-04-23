@@ -35,6 +35,8 @@ section{
 
 }
 
+
+
 .header{
     position: fixed;
     top: 0;
@@ -331,7 +333,7 @@ span {
 
 .Contato{
     gap: 2rem;
-    background-color:rgb(6, 14, 119);
+    background-color:rgb(3, 7, 59);
 }
 
 .contato i{
@@ -361,8 +363,91 @@ span {
     font-size: 20px;
 }
 
-.home , .sobre , .projetos , .contato {
+.home, .sobre, .projetos, .contato, .Habilidades {
     visibility: hidden;
 }
 
 
+.Habilidades{
+    background-color:rgb(6, 14, 119);
+    transition:  .5s ease;
+}
+
+.Habilidades img{
+    display: flex;
+    flex-direction: row;
+}
+
+.HabilidadesTI img{
+    width: 80px;
+    margin: 20px;
+}
+
+.Habilidades-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Habilidades img:hover{
+    box-shadow: 0 0 10rem rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 800px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; /* Ajusta o espaço entre os elementos */
+    }
+
+  
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; /* Ajusta o espaço entre os elementos */
+    }
+
+    .portfolio-box {
+        padding: 2rem; /* Reduz o padding */
+        border-radius: 1rem; /* Ajusta o border-radius */
+    }
+
+    .portfolio-box .Camadas {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+    }
+
+    .Camadas h4 {
+        font-size: 2rem; /* Reduz o tamanho da fonte dos títulos */
+    }
+
+    .Camadas p {
+        font-size: 1.2rem; /* Ajusta o tamanho da fonte das descrições */
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .Habilidades-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; /* Ajusta o espaço entre os elementos */
+    }
+
+    .Habilidades {
+        padding: 2rem; /* Reduz o padding */
+        border-radius: 1rem; /* Ajusta o border-radius */
+    }
+}
