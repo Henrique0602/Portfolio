@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,25 +10,25 @@
 }
 
 
-:root{
-    --bg-color:#1f242d;
-    --second-bg-color:#323946;
-    --text-color:#fff;
-    --main-color:#0ef;
-    --linear-color:#000;
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+    --linear-color: #000;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-body{
+body {
     background-color: rgb(3, 7, 59);
     color: white;
 }
 
-section{
+section {
     min-height: 80vh;
     padding: 10rem 5% 2rem;
 
@@ -37,27 +37,27 @@ section{
 
 
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%; 
-    background-color:rgb(3, 7, 59);
+    padding: 2rem 9%;
+    background-color: rgb(3, 7, 59);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
 
-.logo{
-   font-size: 2.5rem;
-   color: white;
-   font-weight: 600;
-   cursor: default;
+.logo {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: default;
 }
 
-.navbar a{
+.navbar a {
     font-size: 1.7rem;
     color: white;
     margin-left: 4rem;
@@ -72,44 +72,45 @@ section{
     color: #0ef;
 }
 
-#menu-icon{
+#menu-icon {
     font-size: 3.6rem;
     color: white;
     display: none;
 }
 
-.home{
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Home-img img{
+.Home-img img {
     width: 20vw;
     margin-left: 20rem;
     border-radius: 20%;
-    
-   
+
+
 }
 
-.Home-img img:hover{
+.Home-img img:hover {
     box-shadow: 0 0 10rem #0ef;
 }
 
-.home-infor h3:nth-of-type(2){
-    margin-bottom: 2rem ;
-    
-}   
+.home-infor h3:nth-of-type(2) {
+    margin-bottom: 2rem;
 
-span { 
+}
+
+span {
     color: #0ef;
 }
-.home-infor h3{
+
+.home-infor h3 {
     font-size: 3.2rem;
     font-weight: 700;
-}   
+}
 
-.home-infor h1{
+.home-infor h1 {
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -119,7 +120,7 @@ span {
     font-size: 1.6rem;
 }
 
-.Redes-Sociais a{
+.Redes-Sociais a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -130,82 +131,80 @@ span {
     border-radius: 50%;
     font-size: 2rem;
     color: #0ef;
-    margin: 3rem 1.5rem 3rem 0 ;
-    transition:  .5s ease;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
 }
 
 
-.Redes-Sociais a:hover{
+.Redes-Sociais a:hover {
     background: #0ef;
     color: rgb(0, 0, 0);
     box-shadow: 0 0 1rem #0ef;
 }
 
-.btn{
+.btn {
     font-size: 2rem;
     display: inline-block;
     padding: 1rem 2.8rem;
-    background:#0ef;
+    background: #0ef;
     border-radius: 4rem;
     box-shadow: 0 0 1rem #0ef;
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
- 
+
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: none;
 }
 
 
-.sobre{
+.sobre {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background-color:rgb(6, 14, 119);
+    background-color: rgb(6, 14, 119);
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.sobre-img img{
+.sobre-img img {
     width: 15vw;
     border-radius: 20%;
     margin-right: 20rem;
 }
 
-.sobre-img img:hover{
+.sobre-img img:hover {
     box-shadow: 0 0 10rem #0ef;
 }
 
-
-.heading{
+.heading {
     text-align: center;
     font-size: 4.5rem;
-    
 }
 
-.sobre-info h2{
+.sobre-info h2 {
     text-align: left;
     line-height: 1.2;
 }
 
-.sobre-info h3{
+.sobre-info h3 {
     font-size: 2.6rem;
-
 }
 
-.sobre-info p{
+.sobre-info p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
-    
 }
 
-
-.projetos h2{
+.projetos h2 {
     margin-bottom: 5rem;
 }
 
-.projetos-info{
+.projetos-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,14 +213,14 @@ span {
     transition: .5s ease;
 }
 
-.projetos-info .projetos-box:hover{
-    border-color:#0ef; 
+.projetos-info .projetos-box:hover {
+    border-color: #0ef;
     transform: scale(1.3);
 }
 
-.projetos-box{
+.projetos-box {
     flex: 1 1 30rem;
-    background-color:rgb(6, 14, 119);
+    background-color: rgb(6, 14, 119);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
@@ -230,43 +229,43 @@ span {
 }
 
 
-.projetos-box i{
+.projetos-box i {
     font-size: 7rem;
-    color:#0ef;
+    color: #0ef;
 }
 
-.projetos-box h3{
+.projetos-box h3 {
     font-size: 2.6rem;
 
 }
 
-.projetos-box p{
+.projetos-box p {
     font-size: 1.6rem;
-    margin: 1rem 0  3rem ;
-   
-}
-
-
-.portfólio{
-    background-color:rgb(6, 14, 119);
+    margin: 1rem 0 3rem;
 
 }
 
 
-.portfólio h2{
+.portfólio {
+    background-color: rgb(6, 14, 119);
+
+}
+
+
+.portfólio h2 {
     margin-bottom: 4rem;
 
 
 }
 
-.portfolio-container{
+.portfolio-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.portfolio-container .portfolio-box{ 
+.portfolio-container .portfolio-box {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgb(255, 255, 255);
@@ -274,18 +273,18 @@ span {
     display: flex;
 }
 
-.portfolio-box img{
+.portfolio-box img {
     width: 100%;
     transition: .5s ease;
-    
+
 }
 
-.portfolio-box:hover img{
+.portfolio-box:hover img {
     transform: scale(1.1);
 }
 
 
-.portfolio-box .Camadas{
+.portfolio-box .Camadas {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -301,20 +300,22 @@ span {
     transform: translateY(100%);
     transition: .5s ease;
 }
-.portfolio-box:hover .Camadas{
+
+.portfolio-box:hover .Camadas {
     transform: translateY(0);
 }
-.Camadas h4{
+
+.Camadas h4 {
     font-size: 3rem;
-   
+
 }
 
-.Camadas p{
+.Camadas p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
 }
 
-.Camadas a{
+.Camadas a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -324,19 +325,19 @@ span {
     border-radius: 50%;
 }
 
-.Camadas a i{
+.Camadas a i {
     font-size: 2rem;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 
-.Contato{
+.Contato {
     gap: 2rem;
-    background-color:rgb(3, 7, 59);
+    background-color: rgb(3, 7, 59);
 }
 
-.contato i{
+.contato i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -347,12 +348,12 @@ span {
     border-radius: 50%;
     font-size: 2rem;
     color: #0ef;
-    margin: 3rem 1.5rem 3rem 0 ;
-    transition:  .5s ease;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
 }
 
 
-.contato i:hover{
+.contato i:hover {
     background: #0ef;
     color: rgb(0, 0, 0);
     box-shadow: 0 0 1rem #0ef;
@@ -363,27 +364,31 @@ span {
     font-size: 20px;
 }
 
-.home, .sobre, .projetos, .contato, .Habilidades {
+.home,
+.sobre,
+.projetos,
+.contato,
+.Habilidades {
     visibility: hidden;
 }
 
 
-.Habilidades{
-    background-color:rgb(6, 14, 119);
-    transition:  .5s ease;
+.Habilidades {
+    background-color: rgb(6, 14, 119);
+    transition: .5s ease;
 }
 
-.Habilidades img{
+.Habilidades img {
     display: flex;
     flex-direction: row;
 }
 
-.HabilidadesTI img{
+.HabilidadesTI img {
     width: 80px;
     margin: 20px;
 }
 
-.Habilidades-container{
+.Habilidades-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -391,21 +396,29 @@ span {
     margin-top: 30px;
 }
 
-.Habilidades img:hover{
+.Habilidades img:hover {
     box-shadow: 0 0 10rem rgb(255, 255, 255);
     transform: scale(1.1);
 }
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .header {
         display: flex;
-        flex-direction: column;
-        gap: 1.5rem; /* Ajusta o espaço entre os elementos */
+        flex-direction: row;
+        padding: 3px;
+        gap: 1rem;
+        /* Ajusta o espaço entre os elementos */
     }
 
-  
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
 }
 
 
@@ -416,24 +429,30 @@ span {
     .portfolio-container {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem; /* Ajusta o espaço entre os elementos */
+        gap: 1.5rem;
+        /* Ajusta o espaço entre os elementos */
     }
 
     .portfolio-box {
-        padding: 2rem; /* Reduz o padding */
-        border-radius: 1rem; /* Ajusta o border-radius */
+        padding: 2rem;
+        /* Reduz o padding */
+        border-radius: 1rem;
+        /* Ajusta o border-radius */
     }
 
     .portfolio-box .Camadas {
-        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+        font-size: 1.4rem;
+        /* Reduz o tamanho da fonte */
     }
 
     .Camadas h4 {
-        font-size: 2rem; /* Reduz o tamanho da fonte dos títulos */
+        font-size: 2rem;
+        /* Reduz o tamanho da fonte dos títulos */
     }
 
     .Camadas p {
-        font-size: 1.2rem; /* Ajusta o tamanho da fonte das descrições */
+        font-size: 1.2rem;
+        /* Ajusta o tamanho da fonte das descrições */
     }
 }
 
@@ -443,11 +462,74 @@ span {
     .Habilidades-container {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem; /* Ajusta o espaço entre os elementos */
+        gap: 1.5rem;
+        /* Ajusta o espaço entre os elementos */
     }
 
     .Habilidades {
-        padding: 2rem; /* Reduz o padding */
-        border-radius: 1rem; /* Ajusta o border-radius */
+        padding: 2rem;
+        /* Reduz o padding */
+        border-radius: 1rem;
+        /* Ajusta o border-radius */
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        /* Ajusta o espaço entre os elementos */
+    }
+
+    .home-infor {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        /* Reduz o padding */
+        border-radius: 1rem;
+        /* Ajusta o border-radius */
+    }
+
+    .Home-img img {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        /* Reduz o tamanho da fonte */
+    }
+
+    .Home-img{
+        margin-right: 0;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .sobre {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .sobre-img {
+        margin-right: 0;
+    }
+
+    .sobre-img img {
+       padding: 10px;
+        width: 40vw;
+    }
+
+    .sobre-info {
+        padding: 2rem;
+        border-radius: 1rem;
+        font-size: 20px;
     }
 }
