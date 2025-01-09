@@ -245,6 +245,13 @@ span {
 
 }
 
+.Realizar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
 .portfólio {
     background-color: rgb(6, 14, 119);
@@ -335,6 +342,7 @@ span {
 .Contato {
     gap: 2rem;
     background-color: rgb(3, 7, 59);
+   
 }
 
 .contato i {
@@ -409,7 +417,7 @@ span {
         flex-direction: row;
         padding: 3px;
         gap: 1rem;
-        /* Ajusta o espaço entre os elementos */
+      
     }
 
     .navbar{
@@ -430,29 +438,29 @@ span {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        /* Ajusta o espaço entre os elementos */
+       
     }
 
     .portfolio-box {
         padding: 2rem;
-        /* Reduz o padding */
+      
         border-radius: 1rem;
-        /* Ajusta o border-radius */
+      
     }
 
     .portfolio-box .Camadas {
         font-size: 1.4rem;
-        /* Reduz o tamanho da fonte */
+       
     }
 
     .Camadas h4 {
         font-size: 2rem;
-        /* Reduz o tamanho da fonte dos títulos */
+       
     }
 
     .Camadas p {
         font-size: 1.2rem;
-        /* Ajusta o tamanho da fonte das descrições */
+        
     }
 }
 
@@ -463,14 +471,14 @@ span {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        /* Ajusta o espaço entre os elementos */
+     
     }
 
     .Habilidades {
         padding: 2rem;
-        /* Reduz o padding */
+       
         border-radius: 1rem;
-        /* Ajusta o border-radius */
+    
     }
 }
 
@@ -481,23 +489,23 @@ span {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        /* Ajusta o espaço entre os elementos */
+     
     }
 
     .home-infor {
         display: flex;
         flex-direction: column;
         padding: 2rem;
-        /* Reduz o padding */
+      
         border-radius: 1rem;
-        /* Ajusta o border-radius */
+    
     }
 
     .Home-img img {
         display: flex;
         flex-direction: column;
         width: 50vw;
-        /* Reduz o tamanho da fonte */
+      
     }
 
     .Home-img{
